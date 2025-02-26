@@ -1,0 +1,27 @@
+{
+    "name": "local-node",
+    "version": "1.0.0",
+    "description": "elastic search demo in mongo",
+    "main": "index.js",
+    "private": true,
+    "engines": {
+        "node": ">=22.14.0",
+        "npm": ">=9.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.wdf.sap.corp/sapsalescloud/cxm/tree/master/modules/extensibility/extensibility-data-service"
+    },
+    "author": "SAP",
+    "license": "ISC",
+    "dependencies": {
+        "@elastic/elasticsearch": "^8.17.1",
+        "mongodb": "^6.13.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.7.4",
+        "@typescript-eslint/parser": "^6.7.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}

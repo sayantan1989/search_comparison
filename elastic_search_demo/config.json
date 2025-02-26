@@ -1,0 +1,8 @@
+{
+    "$comment":"please get these mongo config details from your cluster in https://cloud.mongodb.com",
+    "mongo": {
+        "user": "sayantanscs",
+        "password": "WelcomeToMongo2025",
+        "clusterUrl": "cluster0.ff2ig.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+}
