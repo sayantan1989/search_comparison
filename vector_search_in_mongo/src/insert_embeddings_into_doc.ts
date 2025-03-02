@@ -64,7 +64,6 @@ async function buildIndex() {
 }
 
 async function processDocuments(documents: any[], collection: Collection<Document>, currentBatch: number) {
-   return;
     try {
         console.log(`-- processing currentBatch : ${currentBatch} of ${documents.length} records --`)
         let operations: AnyBulkWriteOperation<Document>[] = [];
